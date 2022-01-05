@@ -1,0 +1,10 @@
+<div>
+  <h1>{{ 'welcome.title' | translate }}</h1>
+
+  <!-- translation: translation pipe -->
+  <p>{{ 'welcome.text' | translate }}</p>
+
+  <button (click)="useLanguage('en')">en</button>
+  <button (click)="useLanguage('es')">es</button>
+  <button (click)="useLanguage('fr')">fr</button>
+
